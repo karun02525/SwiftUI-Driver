@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var tet = ""
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            TextField("Enter numbaer",text: $tet)
         }
         .padding()
     }

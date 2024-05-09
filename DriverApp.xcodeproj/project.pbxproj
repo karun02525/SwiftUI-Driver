@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C713E3EA2BED31B400C3BFC1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713E3E92BED31B400C3BFC1 /* HomeScreen.swift */; };
 		C792B4E32BECFB78000D1083 /* DriverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B4E22BECFB78000D1083 /* DriverAppApp.swift */; };
-		C792B4E52BECFB78000D1083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B4E42BECFB78000D1083 /* ContentView.swift */; };
 		C792B4E72BECFB79000D1083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792B4E62BECFB79000D1083 /* Assets.xcassets */; };
 		C792B4EA2BECFB79000D1083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792B4E92BECFB79000D1083 /* Preview Assets.xcassets */; };
+		C792B4FE2BECFD9A000D1083 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B4FD2BECFD9A000D1083 /* SplashScreen.swift */; };
+		C792B5002BECFDDA000D1083 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B4FF2BECFDDA000D1083 /* OnBoardingScreen.swift */; };
+		C792B5022BECFE72000D1083 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B5012BECFE72000D1083 /* CarouselView.swift */; };
+		C792B50D2BECFF01000D1083 /* StandardButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B50C2BECFF01000D1083 /* StandardButtonModifier.swift */; };
+		C792B5102BECFF4B000D1083 /* StandardTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B50F2BECFF4B000D1083 /* StandardTextFieldModifier.swift */; };
+		C792B5122BECFF7F000D1083 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B5112BECFF7F000D1083 /* Color.swift */; };
+		C792B5142BECFFC8000D1083 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B5132BECFFC8000D1083 /* Language.swift */; };
+		C792B5182BED002C000D1083 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792B5172BED002C000D1083 /* ButtonView.swift */; };
+		C7D1ABA42BED00CF00E7B316 /* ItemLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1AB9F2BED00CF00E7B316 /* ItemLanguage.swift */; };
+		C7D1ABA52BED00CF00E7B316 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABA02BED00CF00E7B316 /* LanguageView.swift */; };
+		C7D1ABA62BED00CF00E7B316 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABA22BED00CF00E7B316 /* LanguageViewModel.swift */; };
+		C7D1ABAD2BED043900E7B316 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABAC2BED043900E7B316 /* LoginScreen.swift */; };
+		C7D1ABAF2BED047200E7B316 /* AccountDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABAE2BED047200E7B316 /* AccountDetailsScreen.swift */; };
+		C7D1ABB12BED04B300E7B316 /* CustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABB02BED04B300E7B316 /* CustomDialog.swift */; };
+		C7D1ABB32BED04D100E7B316 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABB22BED04D100E7B316 /* AlertType.swift */; };
+		C7D1ABB52BED126F00E7B316 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABB42BED126F00E7B316 /* Extension.swift */; };
+		C7D1ABB72BED1B4C00E7B316 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1ABB62BED1B4C00E7B316 /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C713E3E92BED31B400C3BFC1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		C792B4DF2BECFB78000D1083 /* DriverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C792B4E22BECFB78000D1083 /* DriverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAppApp.swift; sourceTree = "<group>"; };
-		C792B4E42BECFB78000D1083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C792B4E62BECFB79000D1083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C792B4E92BECFB79000D1083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C792B4FD2BECFD9A000D1083 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C792B4FF2BECFDDA000D1083 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		C792B5012BECFE72000D1083 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		C792B5042BECFECE000D1083 /* Georama-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-Italic.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-Italic.ttf"; sourceTree = "<group>"; };
+		C792B5052BECFECE000D1083 /* Georama-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-Light.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-Light.ttf"; sourceTree = "<group>"; };
+		C792B5062BECFECE000D1083 /* Georama-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-Regular.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-Regular.ttf"; sourceTree = "<group>"; };
+		C792B5072BECFECE000D1083 /* Georama-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-LightItalic.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-LightItalic.ttf"; sourceTree = "<group>"; };
+		C792B5082BECFECE000D1083 /* Georama-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-MediumItalic.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C792B5092BECFECE000D1083 /* Georama-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-Medium.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-Medium.ttf"; sourceTree = "<group>"; };
+		C792B50A2BECFECE000D1083 /* Georama-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-SemiBold.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-SemiBold.ttf"; sourceTree = "<group>"; };
+		C792B50B2BECFECE000D1083 /* Georama-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Georama-Bold.ttf"; path = "../../../../../../Desktop/NemoDriver/NemoDriver/Fonts/Georama-Bold.ttf"; sourceTree = "<group>"; };
+		C792B50C2BECFF01000D1083 /* StandardButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButtonModifier.swift; sourceTree = "<group>"; };
+		C792B50F2BECFF4B000D1083 /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
+		C792B5112BECFF7F000D1083 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C792B5132BECFFC8000D1083 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		C792B5172BED002C000D1083 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C7D1AB9F2BED00CF00E7B316 /* ItemLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemLanguage.swift; sourceTree = "<group>"; };
+		C7D1ABA02BED00CF00E7B316 /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		C7D1ABA22BED00CF00E7B316 /* LanguageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		C7D1ABA92BED028600E7B316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C7D1ABAC2BED043900E7B316 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C7D1ABAE2BED047200E7B316 /* AccountDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsScreen.swift; sourceTree = "<group>"; };
+		C7D1ABB02BED04B300E7B316 /* CustomDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialog.swift; sourceTree = "<group>"; };
+		C7D1ABB22BED04D100E7B316 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		C7D1ABB42BED126F00E7B316 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C7D1ABB62BED1B4C00E7B316 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +94,14 @@
 		C792B4E12BECFB78000D1083 /* DriverApp */ = {
 			isa = PBXGroup;
 			children = (
-				C792B4E22BECFB78000D1083 /* DriverAppApp.swift */,
-				C792B4E42BECFB78000D1083 /* ContentView.swift */,
+				C7D1ABA92BED028600E7B316 /* Info.plist */,
+				C792B50E2BECFF24000D1083 /* Colors */,
+				C792B5032BECFEA7000D1083 /* Fonts */,
+				C792B4F02BECFBD4000D1083 /* App */,
+				C792B4F12BECFBDE000D1083 /* Core */,
+				C792B4F22BECFBE7000D1083 /* Model */,
+				C792B4F32BECFBEB000D1083 /* Service */,
+				C792B4FC2BECFD09000D1083 /* Utils */,
 				C792B4E62BECFB79000D1083 /* Assets.xcassets */,
 				C792B4E82BECFB79000D1083 /* Preview Content */,
 			);
@@ -65,6 +114,178 @@
 				C792B4E92BECFB79000D1083 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C792B4F02BECFBD4000D1083 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C792B4E22BECFB78000D1083 /* DriverAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C792B4F12BECFBDE000D1083 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C792B4F62BECFC1A000D1083 /* Splash */,
+				C792B4F52BECFC0C000D1083 /* OnBoarding */,
+				C792B4F92BECFC90000D1083 /* Language */,
+				C792B4F72BECFC1F000D1083 /* Authentication */,
+				C792B4FB2BECFCCD000D1083 /* Dashboard */,
+				C792B4FA2BECFCA4000D1083 /* Settings */,
+				C792B4F42BECFBF4000D1083 /* Components */,
+				C792B4F82BECFC2C000D1083 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C792B4F22BECFBE7000D1083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C792B5132BECFFC8000D1083 /* Language.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C792B4F32BECFBEB000D1083 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C792B4F42BECFBF4000D1083 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C792B50C2BECFF01000D1083 /* StandardButtonModifier.swift */,
+				C792B50F2BECFF4B000D1083 /* StandardTextFieldModifier.swift */,
+				C792B5172BED002C000D1083 /* ButtonView.swift */,
+				C7D1ABB02BED04B300E7B316 /* CustomDialog.swift */,
+				C7D1ABB22BED04D100E7B316 /* AlertType.swift */,
+				C7D1ABB42BED126F00E7B316 /* Extension.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C792B4F52BECFC0C000D1083 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				C792B4FF2BECFDDA000D1083 /* OnBoardingScreen.swift */,
+				C792B5012BECFE72000D1083 /* CarouselView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		C792B4F62BECFC1A000D1083 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C792B4FD2BECFD9A000D1083 /* SplashScreen.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C792B4F72BECFC1F000D1083 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1ABAB2BED041F00E7B316 /* ViewModel */,
+				C7D1ABAA2BED041600E7B316 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C792B4F82BECFC2C000D1083 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		C792B4F92BECFC90000D1083 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1ABA12BED00CF00E7B316 /* View */,
+				C7D1ABA32BED00CF00E7B316 /* ViewModel */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		C792B4FA2BECFCA4000D1083 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C792B4FB2BECFCCD000D1083 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C713E3E92BED31B400C3BFC1 /* HomeScreen.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C792B4FC2BECFD09000D1083 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C792B5032BECFEA7000D1083 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C792B50B2BECFECE000D1083 /* Georama-Bold.ttf */,
+				C792B5042BECFECE000D1083 /* Georama-Italic.ttf */,
+				C792B5052BECFECE000D1083 /* Georama-Light.ttf */,
+				C792B5072BECFECE000D1083 /* Georama-LightItalic.ttf */,
+				C792B5092BECFECE000D1083 /* Georama-Medium.ttf */,
+				C792B5082BECFECE000D1083 /* Georama-MediumItalic.ttf */,
+				C792B5062BECFECE000D1083 /* Georama-Regular.ttf */,
+				C792B50A2BECFECE000D1083 /* Georama-SemiBold.ttf */,
+				C7D1ABB62BED1B4C00E7B316 /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C792B50E2BECFF24000D1083 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C792B5112BECFF7F000D1083 /* Color.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		C7D1ABA12BED00CF00E7B316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1AB9F2BED00CF00E7B316 /* ItemLanguage.swift */,
+				C7D1ABA02BED00CF00E7B316 /* LanguageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7D1ABA32BED00CF00E7B316 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1ABA22BED00CF00E7B316 /* LanguageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7D1ABAA2BED041600E7B316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1ABAC2BED043900E7B316 /* LoginScreen.swift */,
+				C7D1ABAE2BED047200E7B316 /* AccountDetailsScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7D1ABAB2BED041F00E7B316 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +358,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792B4E52BECFB78000D1083 /* ContentView.swift in Sources */,
+				C7D1ABAD2BED043900E7B316 /* LoginScreen.swift in Sources */,
+				C792B5002BECFDDA000D1083 /* OnBoardingScreen.swift in Sources */,
+				C792B5182BED002C000D1083 /* ButtonView.swift in Sources */,
+				C792B5102BECFF4B000D1083 /* StandardTextFieldModifier.swift in Sources */,
+				C7D1ABB32BED04D100E7B316 /* AlertType.swift in Sources */,
+				C7D1ABB12BED04B300E7B316 /* CustomDialog.swift in Sources */,
+				C792B5122BECFF7F000D1083 /* Color.swift in Sources */,
+				C792B4FE2BECFD9A000D1083 /* SplashScreen.swift in Sources */,
+				C7D1ABB52BED126F00E7B316 /* Extension.swift in Sources */,
+				C713E3EA2BED31B400C3BFC1 /* HomeScreen.swift in Sources */,
+				C792B5022BECFE72000D1083 /* CarouselView.swift in Sources */,
+				C792B5142BECFFC8000D1083 /* Language.swift in Sources */,
+				C792B50D2BECFF01000D1083 /* StandardButtonModifier.swift in Sources */,
+				C7D1ABA52BED00CF00E7B316 /* LanguageView.swift in Sources */,
+				C7D1ABAF2BED047200E7B316 /* AccountDetailsScreen.swift in Sources */,
+				C7D1ABB72BED1B4C00E7B316 /* Font.swift in Sources */,
+				C7D1ABA42BED00CF00E7B316 /* ItemLanguage.swift in Sources */,
+				C7D1ABA62BED00CF00E7B316 /* LanguageViewModel.swift in Sources */,
 				C792B4E32BECFB78000D1083 /* DriverAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +513,7 @@
 				DEVELOPMENT_TEAM = V2VR5ZWVNC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DriverApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +543,7 @@
 				DEVELOPMENT_TEAM = V2VR5ZWVNC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DriverApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
